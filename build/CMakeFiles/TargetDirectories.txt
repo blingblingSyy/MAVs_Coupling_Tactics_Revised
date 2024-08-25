@@ -1,0 +1,3 @@
+C:/Users/SYY/MAVs_CD_PF_Git/MAVs_Coupling_Tactics (revised)/build/CMakeFiles/main.dir
+C:/Users/SYY/MAVs_CD_PF_Git/MAVs_Coupling_Tactics (revised)/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/SYY/MAVs_CD_PF_Git/MAVs_Coupling_Tactics (revised)/build/CMakeFiles/ZERO_CHECK.dir

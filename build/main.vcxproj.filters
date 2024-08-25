@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\initialize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\mainmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\benchmark1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\benchmark1_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\benchmark2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8F75425C-4190-3C65-82ED-96F1E71DFF5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

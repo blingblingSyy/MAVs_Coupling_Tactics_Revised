@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\SYY\MAVs_CD_PF_Git\MAVs_Coupling_Tactics (revised)\build\CMakeFiles\f30ba5c91b9528f2437fe1b10ba4cbd1\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6BFBB5F2-FA1F-3213-841A-F1A1943C31B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
