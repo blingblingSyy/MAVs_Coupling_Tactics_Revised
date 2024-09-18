@@ -15,3 +15,6 @@ add_executable(main main.cpp utility.cpp initialize.cpp model.cpp mainmodel.cpp 
 
 # Link against the Gurobi library
 target_link_libraries(main "${GUROBI_LIB_DIR}\\gurobi100.lib" "${GUROBI_LIB_DIR}\\gurobi_c++mdd2017.lib")
+
+# compiler format
+add_compile_options("$<$<C_COMPILER_ID:MSVC>:/source-charset:utf-8>")

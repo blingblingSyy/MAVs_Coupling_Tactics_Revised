@@ -162,32 +162,32 @@ void Benchmark1_1::add_objectives(GRBModel &mol)
         obj += w2 * (in_time - out_time);
     }
 
-    // //3rd term: unserved demands
-    // GRBLinExpr pas_unserved = 0.0, fre_unserved = 0.0;
-    // for(int i = 1; i < node_set.nodenum; i++)
-    // {
-    //     if(node_set.nodetype[i] == 0) pas_unserved += 1;
-    //     else if (node_set.nodetype[i] == 1) fre_unserved += 1;
-    // }
-    // for(int i = 1; i < node_set.nodenum; i++)   //all time-space service nodes
-    // {  
-    //     if(node_set.nodetype[i] != 2)
-    //     {
-    //         for(int p = 0; p < amv_set.veh_num; p++)    //node_set.match_amv[i]
-    //         {
-    //             switch(node_set.nodetype[i])
-    //             {
-    //                 case 0:
-    //                     pas_unserved -= x[i][p];
-    //                     break;
-    //                 case 1:
-    //                     fre_unserved -= x[i][p];
-    //                     break;
-    //             }
-    //         }
-    //     }
-    // }
-    // obj += w3 * (pas_unserved + fp * fre_unserved);
+    //3rd term: unserved demands
+    GRBLinExpr pas_unserved = 0.0, fre_unserved = 0.0;
+    for(int i = 1; i < node_set.nodenum; i++)
+    {
+        if(node_set.nodetype[i] == 0) pas_unserved += 1;
+        else if (node_set.nodetype[i] == 1) fre_unserved += 1;
+    }
+    for(int i = 1; i < node_set.nodenum; i++)   //all time-space service nodes
+    {  
+        if(node_set.nodetype[i] != 2)
+        {
+            for(int p = 0; p < amv_set.veh_num; p++)    //node_set.match_amv[i]
+            {
+                switch(node_set.nodetype[i])
+                {
+                    case 0:
+                        pas_unserved -= x[i][p];
+                        break;
+                    case 1:
+                        fre_unserved -= x[i][p];
+                        break;
+                }
+            }
+        }
+    }
+    obj += w3 * (pas_unserved + fp * fre_unserved);
 
     mol.setObjective(obj, GRB_MINIMIZE);
 

@@ -2020,3 +2020,191 @@ Solution count 3: 5108 5467 6897
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.108000000000e+03, best bound 5.108000000000e+03, gap 0.0000%
+
+Gurobi 10.0.2 (win64, C++) logging started Wed Sep 18 17:38:10 2024
+
+Set parameter Username
+Set parameter LogFile to value "AMVs_CD_PF_b2.log"
+Academic license - for non-commercial use only - expires 2025-09-18
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i9-12900H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 3658 rows, 4014 columns and 13992 nonzeros
+Model fingerprint: 0x726ff7b6
+Variable types: 1758 continuous, 2256 integer (1788 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [5e+01, 8e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 2780 rows and 2959 columns
+Presolve time: 0.06s
+Presolved: 878 rows, 1055 columns, 8663 nonzeros
+Variable types: 374 continuous, 681 integer (681 binary)
+Found heuristic solution: objective 6897.0000000
+Found heuristic solution: objective 5467.0000000
+
+Root relaxation: objective 5.108000e+03, 304 iterations, 0.02 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    5108.0000000 5108.00000  0.00%     -    0s
+
+Explored 1 nodes (304 simplex iterations) in 0.08 seconds (0.12 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 3: 5108 5467 6897 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.108000000000e+03, best bound 5.108000000000e+03, gap 0.0000%
+
+Gurobi 10.0.2 (win64, C++) logging started Wed Sep 18 17:39:23 2024
+
+Set parameter Username
+Set parameter LogFile to value "AMVs_CD_PF_b2.log"
+Academic license - for non-commercial use only - expires 2025-09-18
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i9-12900H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 3630 rows, 3990 columns and 13866 nonzeros
+Model fingerprint: 0x118f0d39
+Variable types: 1746 continuous, 2244 integer (1776 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [5e+01, 8e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 2881 rows and 3037 columns
+Presolve time: 0.07s
+Presolved: 749 rows, 953 columns, 8515 nonzeros
+Variable types: 278 continuous, 675 integer (675 binary)
+Found heuristic solution: objective 5773.0000000
+Found heuristic solution: objective 3476.0000000
+
+Root relaxation: objective 3.475000e+03, 272 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    3475.0000000 3475.00000  0.00%     -    0s
+
+Explored 1 nodes (272 simplex iterations) in 0.09 seconds (0.12 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 3: 3475 3476 5773 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.475000000000e+03, best bound 3.475000000000e+03, gap 0.0000%
+
+Gurobi 10.0.2 (win64, C++) logging started Wed Sep 18 18:14:01 2024
+
+Set parameter Username
+Set parameter LogFile to value "AMVs_CD_PF_b2.log"
+Academic license - for non-commercial use only - expires 2025-09-18
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i9-12900H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 3658 rows, 4014 columns and 13992 nonzeros
+Model fingerprint: 0x10eee2ae
+Variable types: 1758 continuous, 2256 integer (1788 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [5e+01, 8e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 20 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.2 (win64, C++) logging started Wed Sep 18 18:16:23 2024
+
+Set parameter Username
+Set parameter LogFile to value "AMVs_CD_PF_b2.log"
+Academic license - for non-commercial use only - expires 2025-09-18
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i9-12900H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 3658 rows, 4014 columns and 13992 nonzeros
+Model fingerprint: 0xff6ccc8e
+Variable types: 1758 continuous, 2256 integer (1788 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [5e+01, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective 3600.0000000
+Presolve removed 2780 rows and 2959 columns
+Presolve time: 0.08s
+Presolved: 878 rows, 1055 columns, 8663 nonzeros
+Found heuristic solution: objective 3313.0000000
+Variable types: 374 continuous, 681 integer (681 binary)
+
+Root relaxation: cutoff, 244 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0      3313.00000 3313.00000  0.00%     -    0s
+
+Explored 1 nodes (244 simplex iterations) in 0.09 seconds (0.12 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 2: 3313 3600 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.313000000000e+03, best bound 3.313000000000e+03, gap 0.0000%
+
+Gurobi 10.0.2 (win64, C++) logging started Wed Sep 18 18:18:27 2024
+
+Set parameter Username
+Set parameter LogFile to value "AMVs_CD_PF_b2.log"
+Academic license - for non-commercial use only - expires 2025-09-18
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (win64)
+
+CPU model: 12th Gen Intel(R) Core(TM) i9-12900H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 20 logical processors, using up to 20 threads
+
+Optimize a model with 3658 rows, 4014 columns and 13992 nonzeros
+Model fingerprint: 0xdbde73ae
+Variable types: 1758 continuous, 2256 integer (1788 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [5e+01, 1e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective 36000.000000
+Presolve removed 2780 rows and 2959 columns
+Presolve time: 0.08s
+Presolved: 878 rows, 1055 columns, 8663 nonzeros
+Found heuristic solution: objective 22148.000000
+Variable types: 374 continuous, 681 integer (681 binary)
+
+Root relaxation: objective 5.108000e+03, 339 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    5108.0000000 5108.00000  0.00%     -    0s
+
+Explored 1 nodes (339 simplex iterations) in 0.08 seconds (0.12 work units)
+Thread count was 20 (of 20 available processors)
+
+Solution count 3: 5108 22148 36000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.108000000000e+03, best bound 5.108000000000e+03, gap 0.0000%

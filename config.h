@@ -11,7 +11,7 @@ using namespace std;
 
 const int w1 = 50;   //Unit operational costs per travel distance per AMV
 const int w2 = 1;   //Unit operational costs for AMV's total trip duration
-const int w3 = 1000;  //Unit costs for each unserved request
+const int w3 = 10000;  //Unit costs for each unserved request
 const int w4 = 50;     //unit costs for passengers' total trip duration
 const double fp = 0.8;   //Freight to passenger weight ratio of total unserved request
 
